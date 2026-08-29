@@ -1,0 +1,14 @@
+{
+  "name": "clockmost",
+  "owner": {
+    "name": "clockmost",
+    "url": "https://git.clockmost.com"
+  },
+  "plugins": [
+    {
+      "name": "clockmost-package",
+      "source": "./plugins/clockmost-package",
+      "description": "Scaffold, build and release Arch packages through git.clockmost.com/pkgs. Hardened CI (cargo-deny/audit/vet, semgrep, trivy), the cargo-vet triage loop, and the pacman client setup."
+    }
+  ]
+}

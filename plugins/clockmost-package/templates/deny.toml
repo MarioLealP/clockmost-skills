@@ -1,0 +1,34 @@
+# cargo-deny — supply-chain policy. Copy into each Rust package repo unchanged
+# unless the project genuinely needs an exception (then comment why).
+
+[advisories]
+db-urls = ["https://github.com/rustsec/advisory-db"]
+yanked = "deny"
+# `cargo audit` also runs; keep both.
+
+[bans]
+multiple-versions = "warn"
+wildcards = "deny"
+# deny crates that are common malware/typosquat or that pull huge attack surface
+# for no reason in a desktop app:
+deny = [
+  { name = "openssl-sys" },     # prefer rustls
+]
+
+[licenses]
+version = 2
+allow = [
+  "MIT", "Apache-2.0", "Apache-2.0 WITH LLVM-exception",
+  "BSD-2-Clause", "BSD-3-Clause", "ISC", "Zlib",
+  "Unicode-3.0", "Unicode-DFS-2016", "MPL-2.0", "CC0-1.0",
+  "OpenSSL",
+]
+confidence-threshold = 0.9
+
+[sources]
+# THE important one: a dependency cannot silently repoint off crates.io.
+unknown-registry = "deny"
+unknown-git = "deny"
+allow-registry = ["https://github.com/rust-lang/crates.io-index"]
+# add the exact libcosmic / smithay git orgs a project needs, e.g.:
+allow-org = { github = ["pop-os", "smithay"] }

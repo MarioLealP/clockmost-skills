@@ -1,0 +1,31 @@
+# cargo-vet config. Copy into each Rust package repo. `cargo vet` in CI fails
+# until every dependency is covered by an import below or a local audit in
+# audits.toml. See pkgs/packaging README for the triage loop.
+
+[cargo-vet]
+version = "0.10"
+
+[policy.crates-io]
+audit-as-crates-io = true
+
+[[exemptions]]
+# cargo-vet writes exemptions here on `cargo vet init` for the existing tree.
+# Work them down over time via `cargo vet certify`.
+
+[imports.mozilla]
+url = "https://raw.githubusercontent.com/mozilla/supply-chain/main/audits.toml"
+
+[imports.google]
+url = "https://raw.githubusercontent.com/google/supply-chain/main/audits.toml"
+
+[imports.bytecodealliance]
+url = "https://raw.githubusercontent.com/bytecodealliance/wasmtime/main/supply-chain/audits.toml"
+
+[imports.embark]
+url = "https://raw.githubusercontent.com/EmbarkStudios/rust-ecosystem/main/audits.toml"
+
+[imports.isrg]
+url = "https://raw.githubusercontent.com/divviup/libprio-rs/main/supply-chain/audits.toml"
+
+[imports.zcash]
+url = "https://raw.githubusercontent.com/zcash/rust-ecosystem/main/supply-chain/audits.toml"
