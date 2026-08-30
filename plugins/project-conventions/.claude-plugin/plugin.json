@@ -1,0 +1,11 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "project-conventions",
+  "version": "1.0.0",
+  "description": "Cross-project conventions: repo layout, trunk + PR branching, Conventional Commits, SemVer, a README that actually explains setup, and the per-language lint/format/CI baseline.",
+  "author": {
+    "name": "clockmost",
+    "url": "https://git.clockmost.com"
+  },
+  "skills": ["./"]
+}

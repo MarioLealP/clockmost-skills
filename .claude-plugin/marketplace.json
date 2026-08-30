@@ -8,7 +8,12 @@
     {
       "name": "clockmost-package",
       "source": "./plugins/clockmost-package",
-      "description": "Scaffold, build and release Arch packages through git.clockmost.com/pkgs. Hardened CI (cargo-deny/audit/vet, semgrep, trivy), the cargo-vet triage loop, and the pacman client setup."
+      "description": "Scaffold, build and release Arch packages through git.clockmost.com/pkgs. Hardened CI (cargo-deny, cargo-vet, semgrep, trivy), the cargo-vet triage loop, and the pacman client setup."
+    },
+    {
+      "name": "project-conventions",
+      "source": "./plugins/project-conventions",
+      "description": "Cross-project conventions: repo layout, trunk + PR branching, Conventional Commits, SemVer, a README that explains setup, and the per-language (Rust/Python/JS/shell) lint+format+CI baseline."
     }
   ]
 }
