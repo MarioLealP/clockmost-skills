@@ -1,11 +1,13 @@
 {
   "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
   "name": "clockmost-package",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Scaffold, build and release Arch packages via git.clockmost.com/pkgs, with a hardened supply-chain CI pipeline.",
   "author": {
     "name": "clockmost",
     "url": "https://git.clockmost.com"
   },
-  "skills": ["./"]
+  "skills": [
+    "./"
+  ]
 }
