@@ -1,0 +1,13 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "migrate-workflows",
+  "version": "1.0.0",
+  "description": "Automatically migrate legacy workflows to modern skills across global and workspace configurations — scans for existing workflows, creates target SKILL.md files, and safely archives old workflow files.",
+  "author": {
+    "name": "clockmost",
+    "url": "https://git.clockmost.com"
+  },
+  "skills": [
+    "./"
+  ]
+}

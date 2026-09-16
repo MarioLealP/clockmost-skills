@@ -1,0 +1,13 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "generative_ui",
+  "version": "1.0.0",
+  "description": "How to render rich interactive HTML widgets inline in chat or as standalone artifacts — diagrams, data visualizations, interactive controls, and educational walkthroughs beyond plain text and markdown.",
+  "author": {
+    "name": "clockmost",
+    "url": "https://git.clockmost.com"
+  },
+  "skills": [
+    "./"
+  ]
+}

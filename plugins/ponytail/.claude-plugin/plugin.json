@@ -1,0 +1,13 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "ponytail",
+  "version": "1.0.0",
+  "description": "Forces the laziest solution that actually works — simplest, shortest, most minimal. Channels a senior dev applying YAGNI, standard library and native platform features before dependencies, one line before fifty.",
+  "author": {
+    "name": "clockmost",
+    "url": "https://git.clockmost.com"
+  },
+  "skills": [
+    "./"
+  ]
+}

@@ -14,6 +14,41 @@
       "name": "project-conventions",
       "source": "./plugins/project-conventions",
       "description": "Cross-project conventions: repo layout, trunk + PR branching, Conventional Commits, SemVer, a README that explains setup, and the per-language (Rust/Python/JS/shell) lint+format+CI baseline."
+    },
+    {
+      "name": "agy-customizations",
+      "source": "./plugins/agy-customizations",
+      "description": "Comprehensive guide and reference for the Antigravity Customization System. Use to explain how customizations work, their loading priority, discovery mechanisms, and to guide the creation of skills, rules, plugins, hooks, and MCP servers."
+    },
+    {
+      "name": "antigravity-guide",
+      "source": "./plugins/antigravity-guide",
+      "description": "Comprehensive guide, quick reference, and sitemap for Google Antigravity (AGY): the agy CLI, Antigravity 2.0, the IDE, the Python SDK, slash commands, keybindings, and customizations (skills, rules, MCP, sidecars)."
+    },
+    {
+      "name": "generative_ui",
+      "source": "./plugins/generative_ui",
+      "description": "How to render rich interactive HTML widgets inline in chat or as standalone artifacts — diagrams, data visualizations, interactive controls, and educational walkthroughs beyond plain text and markdown."
+    },
+    {
+      "name": "grill-me",
+      "source": "./plugins/grill-me",
+      "description": "A relentless interview to sharpen a plan or design."
+    },
+    {
+      "name": "migrate-workflows",
+      "source": "./plugins/migrate-workflows",
+      "description": "Automatically migrate legacy workflows to modern skills across global and workspace configurations — scans for existing workflows, creates target SKILL.md files, and safely archives old workflow files."
+    },
+    {
+      "name": "permissioned-github",
+      "source": "./plugins/permissioned-github",
+      "description": "Guidelines for interacting with GitHub and requesting permissions from the user when commands fail due to restrictions in the agent environment."
+    },
+    {
+      "name": "ponytail",
+      "source": "./plugins/ponytail",
+      "description": "Forces the laziest solution that actually works — simplest, shortest, most minimal. Channels a senior dev applying YAGNI, standard library and native platform features before dependencies, one line before fifty."
     }
   ]
 }

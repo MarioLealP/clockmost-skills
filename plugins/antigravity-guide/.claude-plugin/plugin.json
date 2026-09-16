@@ -1,0 +1,13 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "antigravity-guide",
+  "version": "1.0.0",
+  "description": "Comprehensive guide, quick reference, and sitemap for Google Antigravity (AGY): the agy CLI, Antigravity 2.0, the IDE, the Python SDK, slash commands, keybindings, and customizations (skills, rules, MCP, sidecars).",
+  "author": {
+    "name": "clockmost",
+    "url": "https://git.clockmost.com"
+  },
+  "skills": [
+    "./"
+  ]
+}

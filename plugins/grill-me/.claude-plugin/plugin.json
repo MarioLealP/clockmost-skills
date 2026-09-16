@@ -1,0 +1,13 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "grill-me",
+  "version": "1.0.0",
+  "description": "A relentless interview to sharpen a plan or design.",
+  "author": {
+    "name": "clockmost",
+    "url": "https://git.clockmost.com"
+  },
+  "skills": [
+    "./"
+  ]
+}
