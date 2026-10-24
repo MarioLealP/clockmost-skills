@@ -5,7 +5,7 @@ Claude Code plugin marketplace for the clockmost homelab.
 ## Install
 
 ```
-claude plugin marketplace add https://git.clockmost.com/Benylin/clockmost-skills.git
+claude plugin marketplace add https://git.clockmost.com/MarioGLealP/clockmost-skills.git
 claude plugin install clockmost-package@clockmost
 claude plugin install project-conventions@clockmost
 ```
